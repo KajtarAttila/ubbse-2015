@@ -4,3 +4,4 @@
 /ubb-se-example-cpp-with-vs2012/Release
 *.opensdf
 *.sdf
+*.suo
