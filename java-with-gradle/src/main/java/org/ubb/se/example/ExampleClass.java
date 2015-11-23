@@ -2,7 +2,7 @@ package org.ubb.se.example;
 
 /**
  * Example class to demonstrate automatic testing and Jenkins reports using Java
- * & Maven.
+ * & Gradle.
  * 
  * @author Csaba Sulyok
  */
