@@ -1,0 +1,36 @@
+// project is Maven-style
+apply plugin: 'java'
+apply plugin: 'maven'
+
+// eclipse project generation support
+apply plugin: 'eclipse'
+
+
+// identifiers
+group = 'org.ubb.se'
+version = 'dev-SNAPSHOT'
+
+
+// JUnit dependency
+dependencies {
+  testCompile group:'junit', name:'junit', version:'4.11'
+}
+
+
+// use main Maven repos
+repositories {
+  mavenLocal()
+  mavenCentral()
+}
+
+
+// extra eclipse setup
+eclipse {
+  // do not hardcode Maven repo in project file
+  pathVariables 'M2_REPO': file(repositories[0].url)
+  
+  project {
+    // other name than foldername
+    name = 'ubb-se-example-gradle'
+  }
+}
