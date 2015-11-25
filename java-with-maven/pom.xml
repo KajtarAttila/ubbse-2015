@@ -8,7 +8,14 @@
 	<version>dev-SNAPSHOT</version>
 
 	<dependencies>
-	
+
+		<!-- Logging dependency -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+
 		<!-- Testing dependency -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -16,7 +23,7 @@
 			<scope>test</scope>
 			<version>4.11</version>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
@@ -25,6 +32,33 @@
 			<plugin>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<version>2.10</version>
+			</plugin>
+
+			<!-- app assembler plugin to gather all dependencies -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>appassembler-maven-plugin</artifactId>
+				<version>1.10</version>
+				<configuration>
+					<programs>
+						<!-- give main entry point to app assembler plugin -->
+						<program>
+							<mainClass>org.ubb.se.example.ExampleMain</mainClass>
+							<id>ubb-se-example</id>
+						</program>
+					</programs>
+					<repositoryLayout>flat</repositoryLayout>
+					<repositoryName>lib</repositoryName>
+				</configuration>
+			</plugin>
+
+            <!-- assembly plugin to create ZIP from assembled files -->
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<descriptor>assembly.xml</descriptor>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
