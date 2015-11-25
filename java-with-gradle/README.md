@@ -7,3 +7,5 @@ Necessary Jenkins plugins not installed by default:
 * [Git plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
 
 * [Gradle plugin](https://wiki.jenkins-ci.org/display/JENKINS/Gradle+Plugin)
+
+* [Rich Text Publisher plugin](https://wiki.jenkins-ci.org/display/JENKINS/Rich+Text+Publisher+Plugin) - to publish the link to the latest release.

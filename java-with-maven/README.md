@@ -5,3 +5,5 @@ This project contains an example class with an associated unit test class. The a
 Necessary Jenkins plugins not installed by default:
 
 * [Git plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
+
+* [Rich Text Publisher plugin](https://wiki.jenkins-ci.org/display/JENKINS/Rich+Text+Publisher+Plugin) - to publish the link to the latest release.

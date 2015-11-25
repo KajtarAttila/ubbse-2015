@@ -37,4 +37,4 @@ eclipse {
 
 // setup for application assembly support
 mainClassName = 'org.ubb.se.example.ExampleMain'
-applicationName = 'ubb-se-example'
+applicationName = 'ubb-se-example-gradle'

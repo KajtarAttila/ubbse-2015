@@ -1,6 +1,6 @@
 # C# project using MSBuild/VsTestRunner
 
-This project contains an example class with an associated unit test class. The associated Jenkins job will build this project, execute its unit tests and publish to a local repository. The Jenkins job will produce a test report to visually examine failing/successful tests.
+This project contains an example class with an associated unit test class. The associated Jenkins job will build this project, execute its unit tests and publish a test report to visually examine failing/successful tests.
 
 This job requires the following tools on the Jenkins machine:
 
