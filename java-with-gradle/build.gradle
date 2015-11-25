@@ -5,6 +5,9 @@ apply plugin: 'maven'
 // eclipse project generation support
 apply plugin: 'eclipse'
 
+// application assembly support
+apply plugin: 'application'
+
 
 // identifiers
 group = 'org.ubb.se'
@@ -13,6 +16,7 @@ version = 'dev-SNAPSHOT'
 
 // JUnit dependency
 dependencies {
+  compile group:'org.slf4j', name:'slf4j-simple', version:'1.7.7'
   testCompile group:'junit', name:'junit', version:'4.11'
 }
 
@@ -28,9 +32,9 @@ repositories {
 eclipse {
   // do not hardcode Maven repo in project file
   pathVariables 'M2_REPO': file(repositories[0].url)
-  
-  project {
-    // other name than foldername
-    name = 'ubb-se-example-gradle'
-  }
 }
+
+
+// setup for application assembly support
+mainClassName = 'org.ubb.se.example.ExampleMain'
+applicationName = 'ubb-se-example'

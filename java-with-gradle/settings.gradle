@@ -1,0 +1,3 @@
+// overwrite name (artifactId)
+// otherwise gradle takes the folder name
+rootProject.name = 'ubb-se-example-gradle'
