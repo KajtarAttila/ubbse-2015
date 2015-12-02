@@ -28,7 +28,7 @@ public class ExampleClassTest {
 
   @Test
   public void isTheWordCorrect() {
-    boolean result = example.isTheWord("bird");
+    boolean result = example.isTheWord("bird2");
     assertThat(result, is(true));
   }
 
