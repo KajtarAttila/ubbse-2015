@@ -6,8 +6,8 @@
     <ProjectGuid>{31D99CD0-DDB3-498F-A748-220CB32EA12C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ubb_se_example_csharp_with_vs2012_test</RootNamespace>
-    <AssemblyName>ubb-se-example-csharp-with-vs2012-test</AssemblyName>
+    <RootNamespace>ubb_se_example_csharp_with_vs_test</RootNamespace>
+    <AssemblyName>ubb-se-example-csharp-with-vs-test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ubb-se-example-csharp-with-vs2012\ubb-se-example-csharp-with-vs2012.csproj">
+    <ProjectReference Include="..\ubb-se-example-csharp-with-vs\ubb-se-example-csharp-with-vs.csproj">
       <Project>{ec8d601c-72b0-402c-a48d-9baf4e335283}</Project>
-      <Name>ubb-se-example-csharp-with-vs2012</Name>
+      <Name>ubb-se-example-csharp-with-vs</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

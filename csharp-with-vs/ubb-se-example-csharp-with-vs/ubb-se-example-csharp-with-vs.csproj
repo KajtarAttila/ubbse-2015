@@ -7,8 +7,8 @@
     <ProjectGuid>{EC8D601C-72B0-402C-A48D-9BAF4E335283}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ubb_se_example_csharp_with_vs2012</RootNamespace>
-    <AssemblyName>ubb-se-example-csharp-with-vs2012</AssemblyName>
+    <RootNamespace>ubb_se_example_csharp_with_vs</RootNamespace>
+    <AssemblyName>ubb-se-example-csharp-with-vs</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

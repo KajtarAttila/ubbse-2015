@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubb-se-example-csharp-with-vs2012", "ubb-se-example-csharp-with-vs2012\ubb-se-example-csharp-with-vs2012.csproj", "{EC8D601C-72B0-402C-A48D-9BAF4E335283}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubb-se-example-csharp-with-vs", "ubb-se-example-csharp-with-vs\ubb-se-example-csharp-with-vs.csproj", "{EC8D601C-72B0-402C-A48D-9BAF4E335283}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubb-se-example-csharp-with-vs2012-test", "ubb-se-example-csharp-with-vs2012-test\ubb-se-example-csharp-with-vs2012-test.csproj", "{31D99CD0-DDB3-498F-A748-220CB32EA12C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ubb-se-example-csharp-with-vs-test", "ubb-se-example-csharp-with-vs-test\ubb-se-example-csharp-with-vs-test.csproj", "{31D99CD0-DDB3-498F-A748-220CB32EA12C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{EC8D601C-72B0-402C-A48D-9BAF4E335283} = {EC8D601C-72B0-402C-A48D-9BAF4E335283}
 	EndProjectSection
