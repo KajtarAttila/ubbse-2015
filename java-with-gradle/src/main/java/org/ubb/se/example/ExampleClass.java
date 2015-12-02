@@ -11,7 +11,7 @@ public class ExampleClass {
   private static final String THE_WORD = "bird";
 
   public String whatsTheWord() {
-    return THE_WRD;
+    return THE_WORD;
   }
 
   public boolean isTheWord(String referenceWord) {

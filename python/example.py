@@ -11,7 +11,7 @@ import sys
 
 class ExampleClass(object):
     
-     theWord = 'bird'
+    theWord = 'bird'
     
     def whatsTheWord(self):
         return self.theWord

@@ -19,7 +19,7 @@ class TestExampleClass(unittest.TestCase):
     
     def testWhatsTheWord(self):
         theWord = self.example.whatsTheWord()
-        self.assertEqual("bird2", theWord)
+        self.assertEqual("bird", theWord)
     
     
     def testIsTheWord_Correct(self):
