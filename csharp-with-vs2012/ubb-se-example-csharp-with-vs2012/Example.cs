@@ -12,7 +12,7 @@ namespace UbbSeExample
 
     public string WhatsTheWord()
     {
-      return THE_WORD;
+      return THE_WRD;
     }
 
     public bool IsTheWord(string referenceWord)
