@@ -13,9 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-    example.cpp
+    example.cpp\
+    exampletest.cpp
 
 HEADERS  += \
-    example.h
+    example.h\
+    exampletest.h
 
 FORMS    +=
