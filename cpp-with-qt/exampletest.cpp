@@ -1,8 +1,9 @@
+/* Since unit test class, only include if TEST macro defined */
+#ifdef TEST
+
 #include "exampletest.h"
 #include <QString>
 
-/* Since unit test class, only include if TEST macro defined */
-#ifdef TEST
 
 void TestExampleClass::whatsTheWordTest() {
   const QString theWord = example.whatsTheWord();
