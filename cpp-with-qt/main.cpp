@@ -5,8 +5,9 @@
  */
 #ifdef TEST
 
-QTEST_MAIN(TestQString)
-#include "testqstring.moc"
+#include "exampletest.h"
+QTEST_MAIN(TestExampleClass)
+//#include "testexampleclass.moc"
 
 
 /**
