@@ -7,5 +7,5 @@ const QString& ExampleClass::whatsTheWord() {
 }
 
 bool ExampleClass::isTheWord(const QString referenceWord) {
-  return QString::compare(theWord, referenceWord.trimmed(), Qt::CaseInsensitive);
+  return QString::compare(theWord, referenceWord.trimmed(), Qt::CaseInsensitive) == 0;
 }

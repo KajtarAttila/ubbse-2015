@@ -6,7 +6,7 @@
 
 void TestExampleClass::whatsTheWordTest() {
   const QString theWord = example.whatsTheWord();
-  QVERIFY(QString::compare(QString("bird"), theWord));
+  QVERIFY("bird" == theWord);
 }
 
 void TestExampleClass::isTheWordCorrect() {
