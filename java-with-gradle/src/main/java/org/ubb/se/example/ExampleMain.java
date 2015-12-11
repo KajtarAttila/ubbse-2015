@@ -16,7 +16,7 @@ public class ExampleMain {
     LOG.warn("= Main entry point =");
     
     ExampleClass example = new ExampleClass();
-    asdf
+    
     LOG.info("The {} is the word!", example.whatsTheWord());
   }
 }
