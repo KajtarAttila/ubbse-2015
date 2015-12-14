@@ -23,7 +23,7 @@ public class ExampleClassTest {
   @Test
   public void whatsTheWordTest() {
     String theWord = example.whatsTheWord();
-    assertThat("bird", is(theWord));
+    assertThat("birz", is(theWord));
   }
 
   @Test
