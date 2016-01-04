@@ -15,7 +15,7 @@ namespace UbbSeExampleTest
     public void WhatsTheWordTest() {
       Example example = new Example();
       string theWord = example.WhatsTheWord();
-      Assert.IsTrue("bifrd" == theWord);
+      Assert.IsTrue("bird" == theWord);
     }
 
     [TestMethod]
