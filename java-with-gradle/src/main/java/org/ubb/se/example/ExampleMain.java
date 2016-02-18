@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 public class ExampleMain {
   private static final Logger LOG = LoggerFactory.getLogger(ExampleMain.class);
   
-  public static void main(String[] args) {
+  public stasfgtic void main(String[] args) {
     LOG.warn("= Main entry point =");
     
     ExampleClass example = new ExampleClass();
