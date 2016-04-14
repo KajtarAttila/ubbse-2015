@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>idde</groupId>
+  <artifactId>properties_example</artifactId>
+  <version>1.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <properties>   
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+  <name>properties_example</name>
+  <organization>
+        <name>Babes-Bolyai University</name>
+        <url> www.cs.ubbcluj.ro </url>
+    </organization>
+    <developers> 
+        <developer> 
+            <name>Jakab Hunor </name>
+            <email>jakabh@cs.ubbcluj.ro </email>
+            <organization> Babes-Bolyai University </organization>
+            <organizationUrl> http://cs.ubbcluj.ro </organizationUrl>
+        </developer>
+    </developers>
+    <description>
+        Több modulból álló projekt, melyben az els? modul egy properties állomány tartalmának beolvasására ad lehet?séget. A második modul egy egyszer? java alkalmazás
+        amely az els? modul segítségével kilistázza a properties állomány tartalmát. A harmadik modul webalkalmazás amelyben egy szervlet, szintén az els? modul
+        segítségével kiírja a properties állomány két kulcsához tartozó értéket
+    </description>
+    <modules>
+        <module>../propertiesreader</module>
+        <module>../propertiesclient</module>
+        <module>../propreaderwebapp</module>
+    </modules>
+   
+</project>

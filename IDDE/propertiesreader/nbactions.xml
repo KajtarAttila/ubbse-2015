@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-push to nexus</actionName>
+            <displayName>push to nexus</displayName>
+            <goals>
+                <goal>deploy</goal>
+            </goals>
+        </action>
+    </actions>
